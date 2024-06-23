@@ -1,0 +1,264 @@
+<style>
+  .slider-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide {
+    min-width: 100%;
+    height: 800px;
+  }
+
+  .slider-button {
+    cursor: pointer;
+    border: 2px solid #000000;
+    background: transparent;
+    border-radius: 30px;
+  }
+  .slider-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 900;
+  }
+  .flexed {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .top_header {
+    color: #122c4f;
+    font-family: "Lato";
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 60px;
+  }
+  .slider_img {
+    max-width: 580px;
+  }
+  .flexed_inner {
+    padding-left: 4rem;
+  }
+  .slide_title {
+    color: #122c4f;
+    font-family: "Lato";
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  p {
+    color: #122c4f;
+  }
+
+  @media only screen and (max-device-width: 425px) {
+    .slide {
+      height: auto;
+    }
+
+    .flexed {
+      display: block;
+    }
+
+    .top_header {
+      font-size: 32px;
+    }
+
+    .slider_img {
+      max-width: 380px;
+    }
+
+    .flexed_inner {
+      padding-left: 0rem;
+      padding-top: 2rem;
+    }
+    .slide_title {
+      font-size: 28px;
+    }
+  }
+</style>
+<div class="slider-container">
+  <div class="slides">
+    <div class="slide">
+      <div class="flexed">
+        <div>
+          <p class="top_header">Lorem ipsum</p>
+          <img
+            class="slider_img"
+            src="https://storage.googleapis.com/msgsndr/tjmMPMkDUXVt8cVlzAFa/media/65257c5d3fd52c853a554ece.png"
+          />
+        </div>
+        <div class="flexed_inner">
+          <p class="slide_title">Lorem ipsum</p>
+          <p
+            style="
+              font-family: 'Lato';
+              font-size: 18px;
+              font-weight: 400;
+              margin-bottom: 30px;
+            "
+          >
+            Lorem ipsum dolor site amet Lorem ipsum dolor site amet Lorem ipsum
+            dolor site amet
+          </p>
+          <div style="display: flex; align-items: center">
+            <img
+              src="https://storage.googleapis.com/msgsndr/tjmMPMkDUXVt8cVlzAFa/media/65254f3260f87c08737369fb.svg+xml"
+            />
+            <div style="margin-left: 1rem">
+              <p style="font-family: 'Lato'; font-size: 16px; font-weight: 600">
+                Lorem ipsum
+              </p>
+              <p style="font-family: 'Lato'; font-size: 14px; font-weight: 400">
+                Lorem ipsum dolor site amet
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="flexed">
+        <div>
+          <p class="top_header">Lorem ipsum</p>
+          <img
+            class="slider_img"
+            src="https://storage.googleapis.com/msgsndr/tjmMPMkDUXVt8cVlzAFa/media/65257c7a3fd52ccad2554f08.png"
+          />
+        </div>
+        <div class="flexed_inner">
+          <p class="slide_title">Lorem ipsum</p>
+          <p
+            style="
+              font-family: 'Lato';
+              font-size: 18px;
+              font-weight: 400;
+              margin-bottom: 30px;
+            "
+          >
+            Lorem ipsum dolor site amet Lorem ipsum dolor site amet Lorem ipsum
+            dolor site amet
+          </p>
+          <div style="display: flex; align-items: center">
+            <img
+              src="https://storage.googleapis.com/msgsndr/tjmMPMkDUXVt8cVlzAFa/media/65254f3260f87c08737369fb.svg+xml"
+            />
+            <div style="margin-left: 1rem">
+              <p style="font-family: 'Lato'; font-size: 16px; font-weight: 600">
+                Lorem ipsum
+              </p>
+              <p style="font-family: 'Lato'; font-size: 14px; font-weight: 400">
+                Lorem ipsum dolor site amet
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="flexed">
+        <div>
+          <p class="top_header">Lorem ipsum</p>
+          <img
+            class="slider_img"
+            src="https://storage.googleapis.com/msgsndr/tjmMPMkDUXVt8cVlzAFa/media/65257c7a3fd52ccad2554f08.png"
+          />
+        </div>
+        <div class="flexed_inner">
+          <p class="slide_title">Lorem ipsum</p>
+          <p
+            style="
+              font-family: 'Lato';
+              font-size: 18px;
+              font-weight: 400;
+              margin-bottom: 30px;
+            "
+          >
+            “Lorem ipsum dolor site amet Lorem ipsum dolor site amet Lorem ipsum
+            dolor site amet”
+          </p>
+          <div style="display: flex; align-items: center">
+            <img
+              src="https://storage.googleapis.com/msgsndr/tjmMPMkDUXVt8cVlzAFa/media/65254f3260f87c08737369fb.svg+xml"
+            />
+            <div style="margin-left: 1rem">
+              <p style="font-family: 'Lato'; font-size: 16px; font-weight: 600">
+                Lorem ipsum,
+              </p>
+              <p style="font-family: 'Lato'; font-size: 14px; font-weight: 400">
+                Lorem ipsum dolor site amet
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="flexed">
+        <div>
+          <p class="top_header">Lorem ipsum dolor site amet</p>
+          <img
+            class="slider_img"
+            src="https://storage.googleapis.com/msgsndr/tjmMPMkDUXVt8cVlzAFa/media/65257c8e48d53a94469d97c8.png"
+          />
+        </div>
+        <div class="flexed_inner">
+          <p class="slide_title">Lorem ipsum dolor site amet</p>
+          <p
+            style="
+              font-family: 'Lato';
+              font-size: 18px;
+              font-weight: 400;
+              margin-bottom: 30px;
+            "
+          >
+            “Lorem ipsum”
+          </p>
+          <div style="display: flex; align-items: center">
+            <img
+              src="https://storage.googleapis.com/msgsndr/tjmMPMkDUXVt8cVlzAFa/media/65254f3260f87c08737369fb.svg+xml"
+            />
+            <div style="margin-left: 1rem">
+              <p style="font-family: 'Lato'; font-size: 16px; font-weight: 600">
+                Lorem ipsum,
+              </p>
+              <p style="font-family: 'Lato'; font-size: 14px; font-weight: 400">
+                Lorem ipsum dolor site amet
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="slider-buttons">
+  <button class="slider-button" onclick="prevSlide()">←</button>
+  <button class="slider-button" onclick="nextSlide()">→</button>
+</div>
+
+<script>
+  let currentSlide = 0;
+  const slides = document.querySelectorAll(".slide");
+  const slidesContainer = document.querySelector(".slides");
+
+  function showSlide(slideIndex) {
+    currentSlide = (slideIndex + slides.length) % slides.length;
+    slidesContainer.style.transform = `translateX(-${currentSlide * 100}%)`;
+  }
+
+  function prevSlide() {
+    showSlide(currentSlide - 1);
+  }
+
+  function nextSlide() {
+    showSlide(currentSlide + 1);
+  }
+</script>
